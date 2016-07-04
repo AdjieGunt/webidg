@@ -1,0 +1,98 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  margin: 0;
+  border: 0;
+  color: #111;
+}
+
+.course-hero.custom {
+    background: url(../images/custom-hero-b9a66b98b67fc62eb053988aa6edd5bf.jpg) no-repeat center top #ff6908;
+    background-attachment: fixed;
+    background-size: 1700px auto;
+}
+
+/*.top-bar {
+    background: #333333;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 0 30px;
+    padding: 0;
+    width: 100%;
+}*/
+
+/*body {
+  margin-top: 2rem; }*/
+
+.title-bar {
+  background: #333;
+  padding: 0.9rem; }
+
+.top-bar {
+  background: #333; }
+  .top-bar ul {
+    background: #333; }
+    .top-bar ul li {
+      background: #333; }
+      .top-bar ul li a {
+        color: #fff; }
+
+.menu-text {
+  color: #fff; }
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
+
+@media only screen and (min-width: 40em) {
+  .top-bar .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .top-bar .menu:first-child {
+    border-left: none; }
+
+  .top-bar .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; } }
+.dropdown.menu .submenu {
+  border: none; }
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+  border-color: #fff transparent transparent; }
+
+.is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #fff; }
+
+.js-drilldown-back::before {
+  border-color: transparent #fff transparent transparent; }
+
+
+
+  .alert-box {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+    position: relative;
+    transition: opacity 300ms ease-out;
+    background-color: #008CBA;
+    border-color: #0078a0;
+    color: #FFFFFF;
+}
+
+.alert-box {
+    margin-bottom: 0;
+}
+
+.alert-box.radius {
+    border-radius: 3px;
+}
+
+.alert-box.secondary {
+    background-color: #e7e7e7;
+    border-color: #c7c7c7;
+    color: #4f4f4f;
+}
